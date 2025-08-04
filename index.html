@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FRESH ROOTS</title>
+    <link rel="icon" type="image/png" href="favi.png" width="200px" height="800px">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="main" id="home">
+        <hr size="2" color="white">
+        <header>
+            <div class="navbar" id="home">
+                <div class="logo">
+                    <img src="logo 1.png" alt="Fresh Roots Logo" />
+                </div>
+
+                <div class="nav-content">
+                    <ul class="links">
+                        <li><a href="index.html#home">HOME</a></li>
+                        <li><a href="index.html#about">ABOUT US</a></li>
+                        <li><a href="index.html#guides">GUIDES</a></li>
+                        <li><a href="index.html#kits">KITS</a></li>
+                        <li><a href="index.html#community">COMMUNITY</a></li>
+                    </ul>
+                    <a href="index.html#contact" class="action_btn">SEND SUCCESS STORIES <i
+                            class="fa-solid fa-paper-plane"></i></a>
+                </div>
+        </header>
+        <div class="container">
+            <div class="text">
+                <h1>Grow Your Green Paradise</h1>
+                <p>
+                    Discover the joy of gardening with expert guidance, community support,
+                    and sustainable practices that nurture both plants and planet.
+                </p>
+                <a href="index.html#smart" class="button">Start Planting Today <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="image">
+                <img src="26.jpeg" alt="Colorful garden with flowers" />
+            </div>
+            <br>
+            <div class="about" id="about">
+                <section class="about-section">
+                    <h2 class="about-title"> Fresh Roots – Grow Your Way to Wellness</h2>
+                    <div class="about-content">
+                        <div class="text-column">
+                            <p class="mission-text">
+                                At Fresh Roots, we believe that planting a seed is more than just growing food it's
+                                about
+                                nurturing your
+                                health, your mind, and your spirit.
+
+                                <br><br>In today’s fast-paced, 9-to-5 lifestyle, it's easy to feel disconnected from
+                                nature
+                                and
+                                overwhelmed by
+                                screens and schedules. That’s why Fresh Roots is here to help you reconnect with the
+                                earth,
+                                one plant at a
+                                time.
+
+                                Whether it’s a pot of mint on your windowsill or a balcony full of veggies, growing your
+                                own
+                                food brings
+                                you
+                                closer to what truly matters:<br>
+                            <ul>
+                                <li>Wholesome nutrition</li><br>
+                                <li>Peaceful moments away from the hustle</li><br>
+                                <li>A daily dose of natural therapy</li><br>
+                            </ul>
+
+                            Gardening isn’t just for farmers it’s for everyone. It’s for the busy professional seeking
+                            calm,
+                            the student
+                            finding focus, and the family looking to eat better and live cleaner.
+                            Fresh Roots is your companion on this green journey because healthier lives begin with
+                            homegrown
+                            roots.
+                            </p>
+                            <div class="stats">
+                                <div class="stat">
+                                    <h4>500K+</h4>
+                                    <p>Active Gardeners</p>
+                                </div>
+                                <div class="stat">
+                                    <h4>2M+</h4>
+                                    <p>Plants Grown</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="image-column">
+                            <img src="community2.jpg" alt="Gardening Team">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="smart" id="smart">
+                <hr size="2" color="white">
+                <div class="containers">
+                    <h1>Smart Planting Assistant</h1>
+                    <p class="description">
+                        Get the best planting recommendations based on your location, season,
+                        garden type, and skill level.
+                    </p>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="location"><i class="fas fa-map-marker-alt"></i> Your Location</label>
+                            <input type="text" id="location" name="location" placeholder="Enter your city" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="season"><i class="fas fa-calendar-alt"></i> Season</label>
+                            <select id="season" name="season" required>
+                                <option value="" disabled selected hidden>
+                                    Choose Season type
+                                </option>
+                                <option value="spring">Spring</option>
+                                <option value="summer">Summer</option>
+                                <option value="autumn">Autumn</option>
+                                <option value="winter">Winter</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="garden"><i class="fas fa-seedling"></i> Garden Type</label>
+                            <select id="garden" name="garden" required>
+                                <option value="" disabled selected hidden>
+                                    Choose your Garden Type
+                                </option>
+                                <option value="container">Container Gardening</option>
+                                <option value="vertical">Vertical Gardening</option>
+                                <option value="rooftop">Rooftop Gardening</option>
+                                <option value="hydroponic">Hydroponic Gardening</option>
+                                <option value="community">Community Gardening</option>
+                                <option value="raisedbed">Raised Bed Gardening</option>
+                                <option value="indoor">Indoor Gardening</option>
+                                <option value="balcony">Balcony Gardening</option>
+                                <option value="kitchenherbs">Kitchen Herb Garden</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="experience"><i class="fas fa-user-graduate"></i> Experience Level</label>
+                            <select id="experience" name="experience" required>
+                                <option value="" disabled selected hidden>
+                                    Choose Experience Level
+                                </option>
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="expert">Expert</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                        </div>
+
+                        <div class="form-buttons">
+                            <button type="submit">
+                                <i class="fas fa-leaf"></i> Get Recommendations
+                            </button>
+                            <button type="reset" class="reset-btn">
+                                <i class="fas fa-undo"></i> Reset
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <section class="learning-section" id="guides">
+            <h1>Learn & Grow</h1>
+            <p class="subtitle">Master gardening skills with our comprehensive learning platform</p>
+            <div class="card-container">
+                <div class="card">
+                    <img src="soil.jpg" alt="Soil Preparation">
+                    <h3>Soil Preparation</h3>
+                    <p>Learn the fundamentals of creating healthy soil for your plants.</p>
+                    <a href="https://youtu.be/L14woJZEJnk?si=1DvmaxVdxaUmP5a_">Watch Video ▶</a>
+                </div>
+                <div class="card">
+                    <img src="watering.jpg" alt="Watering Techniques">
+                    <h3>Watering Techniques</h3>
+                    <p>Master the art of proper watering for optimal plant growth.</p>
+                    <a href="https://youtu.be/4CTOQKIWqvg">Watch Video ▶</a>
+                </div>
+                <div class="card">
+                    <img src="plant.jpg" alt="Plant Care">
+                    <h3>Plant Care</h3>
+                    <p>Essential care tips to keep your plants healthy and thriving.</p>
+                    <a href="https://youtu.be/qb4gIVXHtRw?si=aEjEG_VuLz00E4cl">Watch Video ▶</a>
+                </div>
+                <div class="card">
+                    <img src="seed.jpg" alt="Soil Preparation">
+                    <h3>Seed Selection</h3>
+                    <p>Pick the best seeds for your space and climate for urban settings.</p>
+                    <a href="https://youtu.be/iMSjJKLNwt8?si=FAZEgOvVcC7mV-eq">Watch Video ▶</a>
+                </div>
+                <div class="card">
+                    <img src="container.jpg" alt="Watering Techniques">
+                    <h3>Container Gardening</h3>
+                    <p>Grow plants in pots anywhere—balcony, rooftop, or windowsill.</p>
+                    <a href="https://youtu.be/8U_grFkG3KE?si=b7cTY4R2W6WMuuVn">Watch Video ▶</a>
+                </div>
+                <div class="card">
+                    <img src="vertical.jpg" alt="Plant Care">
+                    <h3>Vertical Gardening</h3>
+                    <p>Save space by growing upward with creative setups.</p>
+                    <a href="https://youtu.be/Vx4UwjKCW5Q?si=Cf21jvkyluu1Ra8q">Watch Video ▶</a>
+                </div>
+                <div class="card">
+                    <img src="sunlight.jpeg" alt="Soil Preparation">
+                    <h3>Sunlight Planning</h3>
+                    <p>Learn how to match plants with sunlight in your home.</p>
+                    <a href="https://youtu.be/OyPNizanGbc?si=yPzMrmNXn2lO-qgw">Watch Video ▶</a>
+                </div>
+                <div class="card">
+                    <img src="compost.jpg" alt="Watering Techniques">
+                    <h3>Urban Composting</h3>
+                    <p>Turn scraps into rich compost—even in small spaces..</p>
+                    <a href="https://youtu.be/rHKkHHKwvio">Watch Video ▶</a>
+                </div>
+                <div class="card">
+                    <img src="harvest.jpeg" alt="Plant Care">
+                    <h3>Harvest & Store</h3>
+                    <p>Learn the right time to harvest and store your crops.</p>
+                    <a href="https://youtu.be/eM9ccHtPRyk?si=dCiCqfkFIz2BAz5a">Watch Video ▶</a>
+                </div>
+                <div class="card">
+                    <img src="microgreens.jpg" alt="Soil Preparation">
+                    <h3> Microgreens at Home</h3>
+                    <p>Grow tiny, tasty greens in just a few days.</p>
+                    <a href="https://youtu.be/dtvuMNVLISo">Watch Video ▶</a>
+                </div>
+                <div class="card">
+                    <img src="watering.jpg" alt="Watering Techniques">
+                    <h3>Natural Pest Controls</h3>
+                    <p>Use eco-friendly tricks to keep pests away.</p>
+                    <a href="https://youtu.be/-NYVacngcXw?si=x8Ah3HXY6cTxBYOi">Watch Video ▶</a>
+                </div>
+                <div class="card">
+                    <img src="herb.jpg" alt="Plant Care">
+                    <h3>Urban Herb Garden</h3>
+                    <p>Grow fresh herbs right in your kitchen and balcony.</p>
+                    <a href="https://youtu.be/PlCTLAhfPzM?si=wpsbs0gVuiLVaTPb">Watch Video ▶</a>
+                </div>
+            </div>
+        </section>
+        <section class="perfectplant">
+            <div class="container1">
+                <h1>Find your Perfect Plant</h1>
+                <p>Answer a few questions and we'll recommend the ideal plants for your space and lifestyle</p>
+                <div id="plant-result"></div>
+                <br>
+                <div class="container2">
+                    <div class="cardss">
+                        <i class="fa-solid fa-sun"></i>
+                        <h1>Light conditions</h1>
+                        <select id="light-condition" name="light" required>
+                            <option value="" disabled selected hidden>Choose Light Conditions</option>
+                            <option value="low">Low Light</option>
+                            <option value="medium">Medium Light</option>
+                            <option value="bright_indirect">Bright Indirect Light</option>
+                            <option value="direct">Direct Sunlight</option>
+                        </select>
+                    </div>
+                    <div class="cardss">
+                        <i class="fa-solid fa-droplet"></i>
+                        <h1>Water Needs</h1>
+                        <select id="water-needs" name="water" required>
+                            <option value="" disabled selected hidden>Choose Water Needs</option>
+                            <option value="low">Low (Once a week)</option>
+                            <option value="moderate">Moderate (Every few days)</option>
+                            <option value="high">High (Daily or frequent)</option>
+                        </select>
+                    </div>
+                    <div class="cardss">
+                        <i class="fa-solid fa-ruler"></i>
+                        <h1>Space Size</h1>
+                        <select id="space-size" name="space" required>
+                            <option value="" disabled selected hidden>Choose Space Size</option>
+                            <option value="small">Small (Desk, Shelf, Balcony)</option>
+                            <option value="medium">Medium (Living Room, Patio)</option>
+                            <option value="large">Large (Yard, Rooftop, Garden)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container4" id="kits">
+                <hr size="30" color="white">
+                <h1>Shop Plants</h1>
+                <p>Showing 53 of 156 products</p>
+
+                <h2>Featured Collections</h2>
+                <div class="collections">
+                    <div class="collection-card">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Indoor Collection</h3>
+                        <p>Perfect for home decoration</p>
+                        <a href="#"><a href="index.html#2">Buy Now</a> →</a>
+                    </div>
+                    <div class="collection-card">
+                        <i class="fas fa-sun"></i>
+                        <h3>Outdoor Collection</h3>
+                        <p>Garden & patio plants</p>
+                        <a href="#"><a href="index.html#2">Buy Now</a> →</a>
+                    </div>
+                    <div class="collection-card">
+                        <i class="fas fa-seedling"></i>
+                        <h3>Starter Collection</h3>
+                        <p>Easy care plants</p>
+                        <a href="#"><a href="index.html#2">Buy Now</a> →</a>
+                    </div>
+                </div>
+
+                <div class="product-grid">
+                    <div class="product-card" id="2">
+                        <img src="monstera.jpg" alt="Monstera" />
+                        <h4>Monstera Deliciosa</h4>
+                        <p>Large indoor plant with split leaves</p>
+                        <div class="price-row">
+                            <span>&#x20b9;450</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="succulent.jpg" alt="Succulent Set" />
+                        <h4>Succulent Set</h4>
+                        <p>Set of 3 mixed succulents</p>
+                        <div class="price-row">
+                            <span>&#x20b9;280</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="snake plant.jpeg" alt="Snake Plant" />
+                        <h4>Snake Plant</h4>
+                        <p>Low Maintenance air purifier</p>
+                        <div class="price-row">
+                            <span>&#x20b9;320</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="fiddle.jpeg" alt="Fiddle Leaf Fig" />
+                        <h4>Fiddle Leaf Fig</h4>
+                        <p>Statement plant for living rooms</p>
+                        <div class="price-row">
+                            <span>&#x20b9;850</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="lily.jpg" alt="Peace Lily" />
+                        <h4>Peace Lily</h4>
+                        <p>Elegant flowering houseplant</p>
+                        <div class="price-row">
+                            <span>&#x20b9;380</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="aloevera.jpg" alt="Peace Lily" />
+                        <h4>Aloe Vera</h4>
+                        <p> Healing succulent</p>
+                        <div class="price-row">
+                            <span>&#x20b9;300</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Banana Plant.jpg" alt="Peace Lily" />
+                        <h4>Banana Plant</h4>
+                        <p> Fruit-bearing plant.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;300</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Bamboo Palm.jpeg" alt="Peace Lily" />
+                        <h4>Bamboo Palm</h4>
+                        <p>Indoor leafy palm.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;800</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Blue Star Fern.jpeg" alt="Peace Lily" />
+                        <h4>Blue Star Fern</h4>
+                        <p> Blue-green fern.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;380</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Boston Fern.jpg" alt="Peace Lily" />
+                        <h4>Boston Fern</h4>
+                        <p> Hanging lush fern.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;380</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Bougainvillea.jpeg" alt="Peace Lily" />
+                        <h4>Bougainvillea</h4>
+                        <p>Bright flowering vine.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;380</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Calla Lily.jpg" alt="Peace Lily" />
+                        <h4>Calla Lily</h4>
+                        <p>Elegant bloom.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;300</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Calathea.jpeg" alt="Peace Lily" />
+                        <h4>Calathea.</h4>
+                        <p>Leaf-folding plant.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;230</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Cast Iron Plant.jpg" alt="Peace Lily" />
+                        <h4>Cast Iron Plant</h4>
+                        <p>Hardy low-care plant.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;590</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Cacti.jpeg" alt="Peace Lily" />
+                        <h4>Cacti</h4>
+                        <p>Spiky water-storer.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;280</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Chinese Evergreen.jpeg" alt="Peace Lily" />
+                        <h4>Chinese Evergreen</h4>
+                        <p>Colorful leaves.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;390</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Echeveria.jpeg" alt="Peace Lily" />
+                        <h4>Echeveria</h4>
+                        <p> Rosette succulent.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;340</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Fern.jpg" alt="Peace Lily" />
+                        <h4>Fern</h4>
+                        <p>EFeathery foliage.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;310</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Fittonia.jpg" alt="Peace Lily" />
+                        <h4>Fittonia</h4>
+                        <p>Veined tiny plant.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;230</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Hibiscus.jpeg" alt="Peace Lily" />
+                        <h4>Hibiscus</h4>
+                        <p>Bright floral shrub.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;800</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Jade Plant.jpg" alt="Peace Lily" />
+                        <h4>Jade Plant</h4>
+                        <p>Thick-leaf succulent.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;500</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Palm Trees.jpeg" alt="Peace Lily" />
+                        <h4>Palm Trees</h4>
+                        <p> Tall tropical tree.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;680</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Parlor Palm.jpeg" Peace Lily" />
+                        <h4>Parlor Palm</h4>
+                        <p>Compact palm.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;380</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Peperomia.jpg" alt="Peace Lily" />
+                        <h4>Peperomia</h4>
+                        <p>Waxy small foliage.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;490</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Philodendron.jpg" alt="Peace Lily" />
+                        <h4>Philodendron</h4>
+                        <p>Popular leafy vine.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;520</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Pothos.jpeg" alt="Peace Lily" />
+                        <h4>Money Plant</h4>
+                        <p>Easy vining plant.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;600</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Rex Begonia.jpeg" alt="Peace Lily" />
+                        <h4>Rex Begonia</h4>
+                        <p>Patterned foliage.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;280</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Rosemary.jpeg" alt="Peace Lily" />
+                        <h4>Rosemary</h4>
+                        <p>Aromatic herb.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;490</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Talljade.jpeg" alt="Peace Lily" />
+                        <h4>Tall Jade</h4>
+                        <p>Tree-like succulent.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;350</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Spider Plant.jpg" alt="Peace Lily" />
+                        <h4>Spider Plant</h4>
+                        <p>Arching air cleaner.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;560</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Tropical Fern.jpeg" alt="Peace Lily" />
+                        <h4>Tropical Fern</h4>
+                        <p>Humid-loving fern.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;540</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="ZZ Plant.jpg" alt="Peace Lily" />
+                        <h4>ZZ Plant</h4>
+                        <p> Glossy, tough plant.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;380</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="ASTER.jpg" alt="Peace Lily" />
+                        <h4>Aster Seeds</h4>
+                        <p>Bright, daisy-like blooms that attract bees and butterflies.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;60</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="SUNFLOWER.jpg" alt="Peace Lily" />
+                        <h4>Sunflower Seeds</h4>
+                        <p>Tall, sunny flowers that bring warmth and attract birds.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;90</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="ZINNIA.jpg" alt="Peace Lily" />
+                        <h4>Zinnia Seeds</h4>
+                        <p>Hardy, colorful flowers that bloom all summer.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;60</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="MOSS ROSE.jpg" alt="Peace Lily" />
+                        <h4>Moss Rose Seeds</h4>
+                        <p>Low-growing plant with vibrant, rose-like flowers.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;80</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="ROSE.jpg" alt="Peace Lily" />
+                        <h4>Rose Seeds</h4>
+                        <p>Classic, fragrant blooms for elegant garden beauty.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;80</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="COSMOS.jpg" alt="Peace Lily" />
+                        <h4>Cosmos Seeds</h4>
+                        <p>Soft, airy flowers with feathery green foliage.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;80</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="CALENDULA.jpg" alt="Peace Lily" />
+                        <h4>Calendula Seeds</h4>
+                        <p>Golden-orange blooms with gentle healing properties.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;70</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="PETUNIA.jpg" alt="Peace Lily" />
+                        <h4>Petunia Seeds</h4>
+                        <p>Trumpet-shaped flowers perfect for pots and baskets.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;40</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="MARIGOLD.jpg" alt="Peace Lily" />
+                        <h4>Marigold Seeds</h4>
+                        <p>Bold blooms that repel pests and brighten gardens.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;70</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="BALSAM.jpg" alt="Peace Lily" />
+                        <h4>Balsam Seeds</h4>
+                        <p>Easy-growing plant with rich, tropical flowers.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;60</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="BEETROOT.jpg" alt="Peace Lily" />
+                        <h4>Beetroot Seeds</h4>
+                        <p> Colorful root veggie, rich in nutrients.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;70</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="BOTTLEGOURD.jpg" alt="Peace Lily" />
+                        <h4>Bottle Gourd</h4>
+                        <p>A climber plant ideal for vertical gardening.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;60</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="METHI.jpg" alt="Peace Lily" />
+                        <h4>Methi Seeds</h4>
+                        <p>Leaves and seeds are edible.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;80</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="RADDISH.jpg" alt="Peace Lily" />
+                        <h4>Raddish Seeds</h4>
+                        <p>Grows fast and can be harvested in 3–4 weeks.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;50</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="CHILLI.jpg" alt="Peace Lily" />
+                        <h4>Chilli Seeds</h4>
+                        <p>Grows well in warm weather.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;50</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="CORIANDER.jpg" alt="Peace Lily" />
+                        <h4>Coriander Seeds</h4>
+                        <p>Aromatic herb that grows quickly.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;40</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="SPINACH2.jpg" alt="Peace Lily" />
+                        <h4>Spinach Seeds</h4>
+                        <p>A fast-growing leafy green, rich in iron.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;80</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="CARROT.jpg" alt="Peace Lily" />
+                        <h4>Carrot Seeds</h4>
+                        <p>Root vegetable that thrives in loose soil.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;120</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="TOMATO.jpg" alt="Peace Lily" />
+                        <h4>Tomato Seeds</h4>
+                        <p>Yields juicy red fruits.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;80</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="OKRA.jpg" alt="Peace Lily" />
+                        <h4>Okra Seeds</h4>
+                        <p>Yields Tender green pods.</p>
+                        <div class="price-row">
+                            <span>&#x20b9;80</span>
+                            <button><a href="index.html#bill">Buy Now</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="bill" id="bill">
+                <hr size="20" color="white">
+                <div class="container5">
+                    <h2>Eco Basket Billing</h2>
+                    <form id="billingForm">
+                        <label for="itemSelect">Select Item:</label>
+                        <select id="itemSelect" required>
+                            <option value="" disabled selected hidden> Choose Item to Buy</option>
+                            <option value="Tomato Seeds">Tomato Seeds</option>
+                            <option value="Aster Seeds">Aster Seeds</option>
+                            <option value="Sunflower Seeds">Sunflower Seeds</option>
+                            <option value="Zinnia Seeds">Zinnia Seeds</option>
+                            <option value="Moss Rose Seeds">Moss Rose Seeds</option>
+                            <option value="Rose Seeds">Rose Seeds</option>
+                            <option value="Cosmos Seeds">Cosmos Seeds</option>
+                            <option value="Calendula Seeds">Calendula Seeds</option>
+                            <option value="Petunia Seeds">Petunia Seeds</option>
+                            <option value="Marigold Seeds">Marigold Seeds</option>
+                            <option value="Balsam Seeds">Balsam Seeds</option>
+                            <option value="Beetroot Seeds">Beetroot Seeds</option>
+                            <option value="Bottle Gourd Seeds">Bottle Gourd Seeds</option>
+                            <option value="Methi Seeds">Methi Seeds</option>
+                            <option value="Raddish Seeds">Raddish Seeds</option>
+                            <option value="Chilli Seeds">Chilli Seeds</option>
+                            <option value="Coriander Seeds">Coriander Seeds</option>
+                            <option value="Spinach Seeds">Spinach Seeds</option>
+                            <option value="Carrot Seeds">Carrot Seeds</option>
+                            <option value="Okra Seeds">Okra Seeds</option>
+                            <option value="Calathea">Calathea</option>
+                            <option value="Cast Iron Plant">Cast Iron Plant</option>
+                            <option value="Cacti">Cacti</option>
+                            <option value="Chinese Evergreen">Chinese Evergreen</option>
+                            <option value="Echeveria">Echeveria</option>
+                            <option value="Fern">Fern</option>
+                            <option value="Fittonia">Fittonia</option>
+                            <option value="Hibiscus">Hibiscus</option>
+                            <option value="Jade Plant">Jade Plant</option>
+                            <option value="Palm Trees">Palm Trees</option>
+                            <option value="Parlor Palm">Parlor Palm</option>
+                            <option value="Peperomia">Peperomia</option>
+                            <option value="Philodendron">Philodendron</option>
+                            <option value="Money Plant">Money Plant</option>
+                            <option value="Rex Begonia">Rex Begonia</option>
+                            <option value="Rosemary">Rosemary</option>
+                            <option value="Tall Jade">Tall Jade</option>
+                            <option value="Spider Plant">Spider Plant</option>
+                            <option value="Tropical Fern">Tropical Fern</option>
+                            <option value="ZZ Plant">ZZ Plant</option>
+                            <option value="Monstera Deliciosa">Monstera Deliciosa</option>
+                            <option value="Succulent Set">Succulent Set</option>
+                            <option value="Snake Plant">Snake Plant</option>
+                            <option value="Fiddle Leaf Fig">Fiddle Leaf Fig</option>
+                            <option value="Peace Lily">Peace Lily</option>
+                            <option value="Aloe Vera">Aloe Vera</option>
+                            <option value="Banana Plant">Banana Plant</option>
+                            <option value="Bamboo Palm">Bamboo Palm</option>
+                            <option value="Blue Star Fern">Blue Star Fern</option>
+                            <option value="Boston Fern">Boston Fern</option>
+                            <option value="Bougainvillea">Bougainvillea</option>
+                            <option value="Calla Lily">Calla Lily</option>
+
+                        </select>
+
+                        <label for="quantityInput">Enter Quantity:</label>
+                        <input type="number" id="quantityInput" min="1" required placeholder="Enter quantity" />
+
+                        <div class="button-wrapper">
+                            <button type="submit">Generate Bill</button>
+                        </div>
+                    </form>
+
+                    <div class="error" id="errorMessage"></div>
+                    <div class="bill" id="billOutput" style="display: none;"></div>
+                    <div id="checkoutSection">
+                        <button id="checkoutButton">Checkout</button>
+                        <p id="orderConfirmation">✅ Order Placed Successfully!</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <section class="community-section" id="community">
+                <h2>Join Our Community</h2>
+                <p class="subtitle">Connect with fellow gardeners worldwide</p>
+                <div class="community-content">
+                    <div class="map-box">
+                        <h3><i class="fas fa-map-marker-alt"></i> Community Map</h3>
+                        <div class="map-container">
+                            <img src="map.jpg" width="800px" height="360px">
+                        </div>
+                        <br>
+                        <p class="map-text">Find local gardening groups and events near you</p>
+                        <div class="community-button-wrapper">
+                            <a href="index.html#join" class="join-community-btn">Join Our Community</a>
+                        </div>
+                    </div>
+                    <div class="testimonial-box">
+                        <div class="testimonial">
+                            <img src="stacey.jpeg" alt="Sarah" class="avatar-large">
+                            <div class="testimonial-content">
+                                <strong>Sarah Chen</strong><br>
+                                <span class="role"><i class="fas fa-star"></i> Community Ambassador</span>
+                                <p> Join our weekly garden tours and learn from experienced growers in your area!</p>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <img src="mike.jpg" alt="Mike" class="avatar-large">
+                            <div class="testimonial-content">
+                                <strong>Mike Rodriguez</strong><br>
+                                <span class="role"><i class="fas fa-leaf"></i> Master Gardener</span>
+                                <p> Share your harvest photos and get tips from our expert community members.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <section class="success-section">
+                <h2 class="title">Success Stories</h2>
+                <p class="subtitle">Real gardeners sharing their growing journeys</p>
+                <div class="cards-container">
+                    <div class="cards">
+                        <img src="indoor.png" alt="Balcony Garden">
+                        <div class="card-content">
+                            <h3>Indoor Jungle for Clean Air</h3>
+                            <p>Isabella filled her apartment with air-purifying plants, creating a green and healthy
+                                space.
+                            </p>
+                            <p class="author">Isabella Rossi – Milan, Italy</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="veggie.jpg" alt="Tomato Garden">
+                        <div class="card-content">
+                            <h3>First-Time Vegetable Success</h3>
+                            <p>Samir had never grown anything before, but with the right guidance, he harvested 50
+                                pounds of
+                                vegetables in
+                                his first season.</p>
+                            <p class="author">Samir Khan – Dhaka, Bangladesh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="spinach.jpg" alt="Indoor Plants">
+                        <div class="card-content">
+                            <h3>Family Farm in the City</h3>
+                            <p>Jamal and his kids grow spinach and okra in buckets on their terrace, learning and
+                                bonding
+                                together.</p>
+                            <p class="author">Jamal Okafor – Lagos, Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="bee.jpg" alt="Balcony Garden">
+                        <div class="card-content">
+                            <h3>Balcony Bee Haven</h3>
+                            <p>Anya’s balcony<a href="index.html#bill">Buy Now</a> buzzing with bees thanks to her
+                                flowering
+                                plants and mini hive.
+                            </p>
+                            <p class="author">Anya Petrova – Warsaw, Poland</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="rooftop.jpg" alt="Tomato Garden">
+                        <div class="card-content">
+                            <h3>Rooftop Revival</h3>
+                            <p>Carlos built a rooftop garden with crates and compost, growing lettuce and peppers for
+                                his
+                                family.</p>
+                            <p class="author">Carlos Martinez – Mexico City, Mexico
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="indor microgreens.jpg" alt="Indoor Plants">
+                        <div class="card-content">
+                            <h3>Techie Turns Gardener</h3>
+                            <p>Ethan began growing microgreens indoors <a href="index.html#bill">Buy Now</a> sells them
+                                to
+                                local
+                                cafés.</p>
+                            <p class="author">Ethan Brooks – San Francisco, USA</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="grandma.jpg" alt="Tomato Garden">
+                        <div class="card-content">
+                            <h3>Grandma’s Garden, Reimagined</h3>
+                            <p>Aiko created a vertical wall garden with recycled bottles, honoring her grandmother’s
+                                love
+                                for
+                                plants.</p>
+                            <p class="author">Aiko Tanaka – Tokyo, Japan</p>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <img src="lily.jpg" alt="Indoor Plants">
+                        <div class="card-content">
+                            <h3>Healing Through Plants</h3>
+                            <p>Reena's indoor garden with peace lilies and aloe vera became her daily stress-relief
+                                ritual.
+                            </p>
+                            <p class="author">Jordan Lee – Toronto, Canada</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+            <br>
+            <div class="contact" id="contact">
+                <hr size="30" color="white">
+                <div class="contact-container">
+                    <!-- Left Frame: Info -->
+                    <div class="contact-info">
+                        <h1>Harvest Hope Together <i class="fa-solid fa-leaf"></i></h1>
+                        <br>
+                        <p class="intro">
+                            Let Your Roots Inspire Others
+                            At Fresh Roots, every garden has a story — of growth, hope, and small beginnings.
+                            Whether it’s a single sprout or a full harvest, your journey matters.
+                            Share your success story and help someone else grow theirs.<br>
+                            ~ The Fresh Roots Team
+                        </p>
+
+                        <blockquote>
+                            Your story might be the seed that inspires someone else to grow.
+                        </blockquote>
+                    </div>
+
+                    <!-- Right Frame: Form -->
+                    <div class="contact-form">
+                        <form>
+                            <label for="name"><i class="fas fa-user"></i> Name</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="message"><i class="fas fa-comment-dots"></i> Your Harvest Story</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+
+                            <button type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <section class="contest-section" id="join">
+                <br>
+                <h2>Active Contests</h2>
+                <p class="subtitle">Participate in exciting challenges and win prizes while making a positive
+                    environmental
+                    impact.
+                </p>
+
+                <div class="contest-cards">
+                    <div class="card2">
+                        <img src="plastic.jpg" alt="Plastic-Free July Challenge">
+                        <div class="card-content">
+                            <span class="badge active">Active</span>
+                            <span class="time">Ends in 12 days</span>
+                            <h3>Plastic-Free July Challenge</h3>
+                            <p>Eliminate single-use plastics for an entire month and track your impact.</p>
+                            <div class="details">
+                                <span>Rs.50,000 Prize Pool</span>
+                                <span> 1,234 participants</span>
+                            </div>
+                            <button class="join-btn">Join Contest</button>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <img src="sprint.jpg" alt="Community Garden Sprint">
+                        <div class="card-content">
+                            <span class="badge active">Active</span>
+                            <span class="time">Ends in 8 days</span>
+                            <h3>Community Garden Sprint</h3>
+                            <p>Create or expand community gardens in urban areas worldwide.</p>
+                            <div class="details">
+                                <span>Rs.80,000 Prize Pool</span>
+                                <span> 892 participants</span>
+                            </div>
+                            <button class="join-btn">Join Contest</button>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <img src="solar.jpeg" alt="Solar Power Initiative">
+                        <div class="card-content">
+                            <span class="badge soon">Starting Soon</span>
+                            <span class="time">Starts in 3 days</span>
+                            <h3>Solar Power Initiative</h3>
+                            <p>Promote solar energy adoption in your neighborhood.</p>
+                            <div class="details">
+                                <span>Rs.1,00,000 Prize Pool</span>
+                                <span> 567 pre-registered</span>
+                            </div>
+                            <button class="register-btn">Register Interest</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer-container">
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="index.html#kits">Shop</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#about">About Us</a></li>
+                            <li><a href="index.html#guides">Guides</a></li>
+                            <li><a href="index.html#kits">Kits</a></li>
+                            <li><a href="index.html#community">Community</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Kits</h3>
+                        <ul>
+                            <li><a href="#">Indoor Collection</a></li>
+                            <li><a href="#">Outdoor Collection</a></li>
+                            <li><a href="#">Starter Collection</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <hr size="10" color="white">
+            <div class="footerbottom">
+                <p>Copyright &copy;2025;Designed By<span class="designer"> CodeCrafters
+            </div>
+    </div>
+    <script>
+        const plantData =
+        {
+            "low-low-small": ["Snake Plant", "ZZ Plant", "Pothos", "Chinese Evergreen", "Cast Iron Plant"],
+            "low-low-medium": ["Snake Plant", "ZZ Plant", "Pothos", "Chinese Evergreen", "Parlor Palm"],
+            "low-low-large": ["Snake Plant", "ZZ Plant", "Pothos", "Parlor Palm", "Chinese Evergreen"],
+            "low-moderate-small": ["Spider Plant", "Pothos", "Chinese Evergreen", "Nerve Plant", "Peace Lily"],
+            "low-moderate-medium": ["Peace Lily", "Spider Plant", "Pothos", "Chinese Evergreen", "Philodendron"],
+            "low-moderate-large": ["Peace Lily", "Spider Plant", "Chinese Evergreen", "Philodendron", "Parlor Palm"],
+            "low-high-small": ["Nerve Plant", "Boston Fern", "Blue Star Fern", "Calathea", "Rex Begonia"],
+            "low-high-medium": ["Boston Fern", "Calathea", "Rex Begonia", "Peace Lily", "Chinese Evergreen"],
+            "low-high-large": ["Boston Fern", "Calathea", "Peace Lily", "Parlor Palm", "Chinese Evergreen"],
+            "medium-low-small": ["Snake Plant", "ZZ Plant", "Jade Plant", "Aloe Vera", "Pothos"],
+            "medium-low-medium": ["Jade Plant", "Aloe Vera", "Snake Plant", "ZZ Plant", "Pothos"],
+            "medium-low-large": ["Jade Plant", "Aloe Vera", "Snake Plant", "ZZ Plant", "Parlor Palm"],
+            "medium-moderate-small": ["Spider Plant", "Pothos", "Peace Lily", "Philodendron", "Peperomia"],
+            "medium-moderate-medium": ["Peace Lily", "Philodendron", "Pothos", "Spider Plant", "Areca Palm"],
+            "medium-moderate-large": ["Peace Lily", "Areca Palm", "Philodendron", "Chinese Evergreen", "Bamboo Palm"],
+            "medium-high-small": ["Calathea", "Boston Fern", "Nerve Plant", "Fittonia", "Rex Begonia"],
+            "medium-high-medium": ["Calathea", "Peace Lily", "Fern", "Bamboo Palm", "Rex Begonia"],
+            "medium-high-large": ["Calathea", "Bamboo Palm", "Peace Lily", "Ferns", "Philodendron"],
+            "bright_indirect-low-small": ["Snake Plant", "ZZ Plant", "Pothos", "Jade Plant", "Aloe Vera"],
+            "bright_indirect-low-medium": ["Jade Plant", "Aloe Vera", "Snake Plant", "Pothos", "ZZ Plant"],
+            "bright_indirect-low-large": ["Aloe Vera", "Jade Plant", "Snake Plant", "ZZ Plant", "Areca Palm"],
+            "bright_indirect-moderate-small": ["Spider Plant", "Pothos", "Peperomia", "Philodendron", "Peace Lily"],
+            "bright_indirect-moderate-medium": ["Peace Lily", "Philodendron", "Pothos", "Bamboo Palm", "Calathea"],
+            "bright_indirect-moderate-large": ["Bamboo Palm", "Peace Lily", "Philodendron", "Calathea", "Chinese Evergreen"],
+            "bright_indirect-high-small": ["Calla Lily", "Calathea", "Boston Fern", "Rex Begonia", "Peace Lily"],
+            "bright_indirect-high-medium": ["Boston Fern", "Calathea", "Peace Lily", "Bamboo Palm", "Rex Begonia"],
+            "bright_indirect-high-large": ["Boston Fern", "Bamboo Palm", "Calathea", "Philodendron", "Peace Lily"],
+            "direct-low-small": ["Aloe Vera", "Jade Plant", "Cacti", "Snake Plant", "Echeveria"],
+            "direct-low-medium": ["Cacti", "Aloe Vera", "Jade Plant", "Snake Plant", "Echeveria"],
+            "direct-low-large": ["Cacti", "Tall Jade", "Bougainvillea", "Rosemary", "Succulent Mixes"],
+            "direct-moderate-small": ["Pothos", "Areca Palm", "Peperomia", "Jade Plant", "Aloe Vera"],
+            "direct-moderate-medium": ["Areca Palm", "Peace Lily", "Philodendron", "Calathea", "Pothos"],
+            "direct-moderate-large": ["Hibiscus", "Bougainvillea", "Rosemary", "Areca Palm", "Monstera"],
+            "direct-high-small": ["Tropical Fern", "Peace Lily", "Calathea", "Fittonia", "Rex Begonia"],
+            "direct-high-medium": ["Hibiscus", "Calathea", "Bamboo Palm", "Peace Lily", "Boston Fern"],
+            "direct-high-large": ["Hibiscus", "Bougainvillea", "Banana Plant", "Monstera", "Palm Trees"]
+        };
+        document.getElementById("light-condition").addEventListener("change", showPlant);
+        document.getElementById("water-needs").addEventListener("change", showPlant);
+        document.getElementById("space-size").addEventListener("change", showPlant);
+
+        function showPlant() {
+            const light = document.getElementById("light-condition").value;
+            const water = document.getElementById("water-needs").value;
+            const space = document.getElementById("space-size").value;
+
+            const resultDiv = document.getElementById("plant-result");
+
+            if (!light || !water || !space) {
+                resultDiv.innerHTML = "";
+                return;
+            }
+
+            const key = `${light}-${water}-${space}`;
+
+            if (plantData[key]) {
+                const plants = plantData[key];
+                const randomPlant = plants[Math.floor(Math.random() * plants.length)];
+                resultDiv.innerHTML = `<strong>Recommended Plant:</strong> ${randomPlant}`;
+            }
+            else {
+                resultDiv.innerHTML = "No plant found for this combination.";
+            }
+        }
+
+        const priceList = {
+            "Tomato Seeds": 80,
+            "Aster Seeds": 60,
+            "Sunflower Seeds": 90,
+            "Zinnia Seeds": 60,
+            "Moss Rose Seeds": 80,
+            "Rose Seeds": 80,
+            "Cosmos Seeds": 80,
+            "Calendula Seeds": 70,
+            "Petunia Seeds": 40,
+            "Marigold Seeds": 70,
+            "Balsam Seeds": 60,
+            "Beetroot Seeds": 70,
+            "Bottle Gourd Seeds": 60,
+            "Methi Seeds": 80,
+            "Raddish Seeds": 50,
+            "Chilli Seeds": 50,
+            "Coriander Seeds": 40,
+            "Spinach Seeds": 80,
+            "Carrot Seeds": 120,
+            "Tomato Seeds": 80,
+            "Okra Seeds": 80,
+            "Calathea": 230,
+            "Cast Iron Plant": 590,
+            "Cacti": 280,
+            "Chinese Evergreen": 390,
+            "Echeveria": 340,
+            "Fern": 310,
+            "Fittonia": 230,
+            "Hibiscus": 800,
+            "Jade Plant": 500,
+            "Palm Trees": 680,
+            "Parlor Palm": 380,
+            "Peperomia": 490,
+            "Philodendron": 520,
+            "Money Plant": 600,
+            "Rex Begonia": 280,
+            "Rosemary": 490,
+            "Tall Jade": 350,
+            "Spider Plant": 560,
+            "Tropical Fern": 540,
+            "ZZ Plant": 380,
+            "Monstera Deliciosa": 450,
+            "Succulent Set": 280,
+            "Snake Plant": 320,
+            "Fiddle Leaf Fig": 850,
+            "Peace Lily": 380,
+            "Aloe Vera": 300,
+            "Banana Plant": 300,
+            "Bamboo Palm": 800,
+            "Blue Star Fern": 380,
+            "Boston Fern": 380,
+            "Bougainvillea": 380,
+            "Calla Lily": 300
+
+        };
+
+        const form = document.getElementById('billingForm');
+        const billOutput = document.getElementById('billOutput');
+        const errorMessage = document.getElementById('errorMessage');
+        const checkoutSection = document.getElementById('checkoutSection');
+        const checkoutButton = document.getElementById('checkoutButton');
+        const orderConfirmation = document.getElementById('orderConfirmation');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const selectedItem = document.getElementById('itemSelect').value;
+            const quantity = parseInt(document.getElementById('quantityInput').value);
+
+            errorMessage.textContent = '';
+            billOutput.style.display = 'none';
+            billOutput.innerHTML = '';
+            orderConfirmation.style.display = 'none';
+            checkoutSection.style.display = 'none';
+
+            if (!selectedItem || isNaN(quantity) || quantity <= 0) {
+                errorMessage.textContent = 'Please select a valid item and enter a valid quantity.';
+                return;
+            }
+
+            const price = priceList[selectedItem];
+            const total = price * quantity;
+
+            billOutput.innerHTML = `
+                <h3>Bill Details</h3>
+                <p><strong>Item:</strong> ${selectedItem}</p>
+                <p><strong>Price per unit:</strong> ₹${price}</p>
+                <p><strong>Quantity:</strong> ${quantity}</p>
+                <p><strong>Total Cost:</strong> ₹${total}</p>
+            `;
+            billOutput.style.display = 'block';
+            checkoutSection.style.display = 'block';
+        });
+
+        checkoutButton.addEventListener('click', () => {
+            orderConfirmation.style.display = 'block';
+
+            // Apply fade-out before reloading
+            setTimeout(() => {
+                document.querySelector('.container5').classList.add('fade-out');
+            }, 1000); // start fade-out after 1 second
+
+            // Reload after fade-out completes (2 sec total)
+            setTimeout(() => {
+                window.location.reload();
+            }, 2000);
+        });
+
+    </script>
+</body>
+
+</html>
